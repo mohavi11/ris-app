@@ -37,6 +37,9 @@ android.minapi = 21
 android.api = 33
 android.ndk = 25b
 
+# پذیرش خودکار مجوزهای Android SDK (بدون این، بیلد خودکار متوقف می‌شود)
+android.accept_sdk_license = True
+
 # دسترسی‌های لازم (این اپ به دوربین/اینترنت نیازی ندارد)
 android.permissions =
 
