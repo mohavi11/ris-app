@@ -39,6 +39,9 @@ jobs:
           pip install kivy pyinstaller
 
       - name: Build EXE
+        env:
+          KIVY_GL_BACKEND: mock
+          KIVY_WINDOW: mock
         run: |
           pyinstaller --onefile --windowed --name RISSimulator main.py
 
